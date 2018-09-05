@@ -6,8 +6,6 @@ import { CustomerListComponent } from './customer-list/customer-list.component';
 import { CustomerProfileComponent } from './customer-profile/customer-profile.component';
 import { WorkerListComponent } from './worker-list/worker-list.component';
 import { WorkerProfileComponent } from './worker-profile/worker-profile.component';
-import { AppRoutingModule } from './/app-routing.module';
-import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,12 +13,10 @@ import { HomeComponent } from './home/home.component';
     CustomerListComponent,
     CustomerProfileComponent,
     WorkerListComponent,
-    WorkerProfileComponent,
-    HomeComponent
+    WorkerProfileComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
